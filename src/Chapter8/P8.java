@@ -8,11 +8,12 @@ import java.util.Scanner;
  * @author Tyler Bynum
  */
 public class P8 {
-/**
- * Main Method
- * 
- * @param args arguments from command line prompt 
- */
+
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
         // variables defined
         Scanner input = new Scanner(System.in);

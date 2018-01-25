@@ -39,11 +39,11 @@ public class C7_26 {
 
     /**
      * Program decides if the arrays are equal
+     *
      * @param list1 compares list 1 to list 2
      * @param list2 compares list 2 to list 1
      * @return true or false
      */
-
     public static boolean equals(int[] list1, int[] list2) {
         return java.util.Arrays.equals(list1, list2); //this method checks if 2 lists are equal
     }

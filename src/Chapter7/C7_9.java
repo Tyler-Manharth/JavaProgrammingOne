@@ -14,7 +14,6 @@ public class C7_9 {
      *
      * @param args arguments from the command line prompt
      */
-
     public static void main(String[] args) {
         System.out.println("Enter ten numbers: ");
         Scanner input = new Scanner(System.in);
@@ -28,6 +27,7 @@ public class C7_9 {
 
     /**
      * Program decides the minimum of the array
+     *
      * @param array to decide the minimum of ten numbers
      * @return minimum number
      */

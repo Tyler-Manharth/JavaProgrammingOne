@@ -8,11 +8,12 @@ import java.util.Scanner;
  * @author Tyler Bynum
  */
 public class P7 {
-/**
- * Main Method
- * 
- * @param args arguments from command line prompt 
- */
+
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -24,11 +25,13 @@ public class P7 {
         fillArray(array, input);
 
     }
-/**
- * Program decides the average of the array
- * @param array array used in command line prompt
- * @param input scanner imported
- */
+
+    /**
+     * Program decides the average of the array
+     *
+     * @param array array used in command line prompt
+     * @param input scanner imported
+     */
     public static void fillArray(int[] array, Scanner input) {
         int total = 0;
         for (int i = 0; i < array.length; i++) {

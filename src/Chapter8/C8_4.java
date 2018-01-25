@@ -3,17 +3,18 @@ package Chapter8;
 import java.util.Arrays;
 
 /**
- * program to display how many hours an employee worked on which days for the week to the console
+ * program to display how many hours an employee worked on which days for the
+ * week to the console
  *
  * @author Tyler Bynum
  */
-public class C8_1 {
+public class C8_4 {
+
     /**
      * Main Method
-     * 
+     *
      * @param args arguments from the command line prompt
      */
-
     public static void main(String[] args) {
 
         int[][] hours = {
@@ -53,12 +54,13 @@ public class C8_1 {
         }
 
     }
+
     /**
      * Program sorts the list and displays it to the console
+     *
      * @param list decides max list
      * @param indexList sorts the list from greatest to least
      */
-
     public static void sort(int[] list, int[] indexList) {
         int max;
         int x_max;
@@ -89,11 +91,13 @@ public class C8_1 {
             }
         }
     }
-/**
- * Program finds the sum of the array length
- * @param x variable to help sort the list
- * @return sum of the length
- */
+
+    /**
+     * Program finds the sum of the array length
+     *
+     * @param x variable to help sort the list
+     * @return sum of the length
+     */
     public static int[] sum(int[][] x) {
         int[] sum = new int[8];
         for (int i = 0; i < sum.length; i++) {

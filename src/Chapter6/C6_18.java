@@ -14,7 +14,6 @@ public class C6_18 {
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a password: ");
@@ -29,6 +28,7 @@ public class C6_18 {
 
     /**
      * Program decides if password is valid
+     *
      * @param password checks length and digits used to apply if it is usable
      * @return string
      */
@@ -70,19 +70,23 @@ public class C6_18 {
             return false;
         }
     }
-/**
- * Program decides if the characters used are valid
- * @param ch determines whether the used characters are letters
- * @return char
- */
+
+    /**
+     * Program decides if the characters used are valid
+     *
+     * @param ch determines whether the used characters are letters
+     * @return char
+     */
     public static boolean isLetter(char ch) {
         return ((ch <= 'z' && ch >= 'a') || (ch <= 'Z' && ch >= 'A'));
     }
-/**
- * Program decides if characters used are valid
- * @param ch determines whether the used characters are numbers
- * @return char
- */
+
+    /**
+     * Program decides if characters used are valid
+     *
+     * @param ch determines whether the used characters are numbers
+     * @return char
+     */
     public static boolean isDigit(char ch) {
         return (ch <= '9' && ch >= '0');
     }

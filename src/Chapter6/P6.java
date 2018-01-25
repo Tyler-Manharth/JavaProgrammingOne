@@ -51,12 +51,14 @@ public class P6 {
 
         } while (more.equalsIgnoreCase("yes"));
     }
-/**
- * Program converts given amount to different currency
- * @param c1 converted amount
- * @param d1 given amount
- * @return double
- */
+
+    /**
+     * Program converts given amount to different currency
+     *
+     * @param c1 converted amount
+     * @param d1 given amount
+     * @return double
+     */
     public static double convert(double c1, double d1) {
         double dFin = 0;
         if (d1 > 100) {
