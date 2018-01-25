@@ -7,7 +7,6 @@ import java.util.Scanner;
  *
  * @author Tyler Bynum
  */
-
 public class C3_33 {
 
     /**
